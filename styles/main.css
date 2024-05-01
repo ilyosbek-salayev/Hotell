@@ -112,8 +112,9 @@
 
 .banner-info_title {
     font-size: 9rem;
-    color: #FFF;
-    -webkit-text-fill-color: #52584fc0;
+    color: #ffffff;
+    /* text-shadow: 5px 5px white ; */
+    -webkit-text-fill-color: #52584f00;
     -webkit-text-stroke-width: 1px;
     font-family: sans-serif;
     -webkit-text-size-adjust: 0;
