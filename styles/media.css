@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .banner-info_title {
+        font-size: 5rem;
+    }
+    /* .banner-catalog {
+        
+    } */
+    .banner-form {
+        padding: 10px 15px;
+    }
+    #date, #name, #message {
+        margin: 0;
+        width: 250px;
+    }
+    .label {
+        text-align: justify;
+        padding: 0;
+    }
+    .form-catalog {
+        transform: translateX(3rem);
+    }
+}
