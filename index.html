@@ -5,48 +5,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotell Procts</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 
 <body>
-    <header>
-        <!--
-            Header
-        -->
+    <header class="header-page">
+        <div class="container">
+            <div class="content">
+                <a href="#!" class="logo">
+                    <span class="logo-site">
+                        <h4 class="logo-T">D</h4>Dubai-Hotell
+                    </span>
+                </a>
+                <nav class="header-nav">
+                    <a href="#home" class="header-nav_link">Home</a>
+                    <a href="#about" class="header-nav_link">About</a>
+                    <a href="#service" class="header-nav_link">Service</a>
+                    <a href="#rooms" class="header-nav_link">Buy Romm</a>
+                    <a href="#contact" class="header-nav_link">Contact</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
-        <Section class="head-banner">
-            <!--
-                head-banner
-            -->
+        <Section class="head-banner" id="home">
+            <div class="container">
+                <div class="banner-catalog">
+                    <div class="banner-info">
+                        <h2 class="banner-info_title">Dubai Hotel</h2>
+                        <h4 class="banner-info_text">Welcome Dubai Hotel web site</h4>
+                    </div>
+                    <form action="" class="banner-form">
+                        <div class="form-catalog">
+                            <label for="name" class="label">Name</label>
+                            <input type="text" id="name" placeholder="Name">
+                            <label for="date" class="label">Date</label>
+                            <input type="date" id="date">
+                            <label for="message" class="label">message</label>
+                            <input type="text" id="message" placeholder="Message">
+                            <button type="submit" class="button">Send info</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </Section>
-        <section class="about">
-            <!--
-                abouts info
-            -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="box">
+
+
+                    <div class="row">
+
+                        <div class="column">
+                            <img class="imgs1" src="img/img6.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="imgs2" src="img/img2.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="imgs3" src="img/img3.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="imgs4" src="img/img4.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="imgs5" src="img/img5.jpg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="box-info">
+                        <h2 class="box-info_title">
+                            Hotell About
+                        </h2>
+                        <p class="box-info_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quo
+                            deleniti earum assumenda quasi alias distinctio. Expedita, cum accusamus aliquid aperiam
+                            voluptatibus facere inventore voluptatem itaque modi nobis, tempora quas quibusdam non eos!
+                        </p>
+                        <div class="gift">
+                            <span class="box-info_gift">☑️ <p>tongi tushlik</p></span>
+                            <span class="box-info_gift">☑️ <p>bepul piliaje</p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="hotel-service">
-            <!--
-                hotel service = hizmat ko'rsatish
-            -->
+        <section class="hotel-service" id="service">
+            <div class="container">
+                <div class="service-info">
+                    <h2 class="service-info_title">Service</h2>
+                </div>
+                <div class="service-catalog">
+                    <div class="service-card">
+                        <div class="img-icon">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-info_title">Welcome</h4>
+                            <p class="card-info_text">airapord yoki vaqzaldan bizni xizmat taxsilarimiz sizni kutib
+                                olisha va sizni to'g'ri mexmonhonaga olib tashlashadi labatda bu sizni </p>
+                            <span class="card-info_span">to'lovingiz ichida bepul xizmat ko'rsatish</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="img-icon">
+                            <img src="./img/service-room.png" alt="">
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-info_title">Service Room</h4>
+                            <p class="card-info_text">Xona xizmati bu xizmat sizni tongi tushlikni xonangizga olib
+                                chiqish va tozalika qarash bu xam sizning</p>
+                            <span class="card-info_span"> to'lovingiz ichida bepul xizmat ko'rsatish</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="img-icon">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-info_title">Welcome</h4>
+                            <p class="card-info_text">airapord yoki vaqzaldan bizni xizmat taxsilarimiz sizni kutib
+                                olisha va sizni to'g'ri mexmonhonaga olib tashlashadi labatda bu sizni to'lovingz ichida
+                                bo'ladi</p>
+                            <span class="card-info_span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="rooms-buy">
-            <!--
-                xonalar narxlari 1oy-1hafta-1kun
-            -->
+        <section class="rooms-buy" id="rooms">
+            <div class="container">
+                <div class="buy-catalog">
+                    <h2 class="buy-room_title">Buy Rooms Tables</h2>
+                    <ul class="responsive-table">
+                        <li class="table-header">
+                            <div class="col col-1">oylik </div>
+                            <div class="col col-2">kishilik</div>
+                            <div class="col col-3">Narxlari</div>
+                            <div class="col col-4">To'lov uslubi</div>
+                        </li>
+                        <li class="table-row">
+                            <div class="col col-1" data-label="Job Id">1</div>
+                            <div class="col col-2" data-label="Customer Name">2 / 1</div>
+                            <div class="col col-3" data-label="Amount">$450 / $400</div>
+                            <div class="col col-4" data-label="Payment Status"><a href="#!" class="buy">payPal</a> / <a
+                                    href="#!" class="buy">Payment</a></div>
+                        </li>
+                        <li class="table-row">
+                            <div class="col col-1" data-label="Job Id">3 / 6</div>
+                            <div class="col col-2" data-label="Customer Name">2 / 1</div>
+                            <div class="col col-3" data-label="Amount">$600 / $799</div>
+                            <div class="col col-4" data-label="Payment Status"><a href="#!" class="buy">payPal</a> / <a
+                                    href="#!" class="buy">Payment</a></div>
+                        </li>
+                        <li class="table-row">
+                            <div class="col col-1" data-label="Job Id">1</div>
+                            <div class="col col-2" data-label="Customer Name">3 / 4</div>
+                            <div class="col col-3" data-label="Amount">$400 / $450</div>
+                            <div class="col col-4" data-label="Payment Status"><a href="#!" class="buy">payPal</a> / <a
+                                    href="#!" class="buy">Payment</a></div>
+                        </li>
+                        <li class="table-row">
+                            <div class="col col-1" data-label="Job Id">3 / 6</div>
+                            <div class="col col-2" data-label="Customer Name">3 / 4</div>
+                            <div class="col col-3" data-label="Amount">$799 / $899</div>
+                            <div class="col col-4" data-label="Payment Status"><a href="#!" class="buy">payPal</a> / <a
+                                    href="#!" class="buy">Payment</a></div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </section>
-        <section class="hotel-contact">
-            <!--
-                bu yida mexmon honani aloqa bo'limi bilan bog'lanish imkonyati beradi
-            -->
+        <section class="hotel-contact" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2 class="Contact-title">Contact</h2>
+                    <div class="form">
+                        <div class="contact-info">
+                            <h3 class="title">Let's get in touch</h3>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                                dolorum adipisci recusandae praesentium dicta!
+                            </p>
+
+                            <div class="info">
+                                <div class="information">
+                                    <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+
+                                    <p>92 Cherry Drive Uniondale, NY 11553</p>
+                                </div>
+                                <div class="information">
+                                    <i class="fas fa-envelope"></i> &nbsp &nbsp
+                                    <p>lorem@ipsum.com</p>
+                                </div>
+                                <div class="information">
+                                    <i class="fas fa-phone"></i>&nbsp&nbsp
+                                    <p>123-456-789</p>
+                                </div>
+                            </div>
+
+                            <div class="social-media">
+                                <p>Connect with us :</p>
+                                <div class="social-icons">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f">facebook</i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fab fa-instagram">Instagram</i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <span class="circle one"></span>
+                            <span class="circle two"></span>
+
+                            <form action="index.html" autocomplete="off">
+                                <h3 class="title">Contact us</h3>
+                                <div class="input-container">
+                                    <input type="text" name="name" class="input" />
+                                    <label for="">Username</label>
+                                    <span>Username</span>
+                                </div>
+                                <div class="input-container">
+                                    <input type="email" name="email" class="input" />
+                                    <label for="">Email</label>
+                                    <span>Email</span>
+                                </div>
+                                <div class="input-container">
+                                    <input type="tel" name="phone" class="input" />
+                                    <label for="">Phone</label>
+                                    <span>Phone</span>
+                                </div>
+                                <div class="input-container textarea">
+                                    <textarea name="message" class="input"></textarea>
+                                    <label for="">Message</label>
+                                    <span>Message</span>
+                                </div>
+                                <input type="button" value="Send" class="btn" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <footer class="footer">
-            <!--
-                mexmonhona footer qisma yani buyerda ishtimoyi 
-                tarmoqlar linklari va sahifalar manzilari berib o'tiladi bitta form qoldiriladi uham bo'sa izoh qoldirish web sahifa ni baxolash uchun
-            -->
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer_title">Footer Page</h2>
+            <div class="footer-nav">
+                <a href="#home" class="footer-nav_link">Home</a>
+                <a href="#about" class="footer-nav_link">Anout</a>
+                <a href="#service" class="footer-nav_link">Service</a>
+                <a href="#rooms" class="footer-nav_link">Buy Romm </a>
+                <a href="#contact" class="footer-nav_link">Contact</a>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <script src="scripts/water.Js"></script>
+    <script src="scripts/water2.Js"></script>
+    <script src="scripts/app.Js"></script>
 </body>
 
 </html>
